@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import SliderData from "../components/SliderData.js"
+import SliderData from "../components/SliderData"
 import SliderContent from "./SliderContent.jsx"
 import Arrows from "./Arrows.jsx"
 import Dots from "./Dots.jsx"
