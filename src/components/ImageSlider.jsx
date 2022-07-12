@@ -3,6 +3,7 @@ import { SliderData } from "./SliderData.js"
 import SliderContent from "./SliderContent.jsx"
 import Arrows from "./Arrows.jsx"
 import Dots from "./Dots.jsx"
+import "./slide.css";
 
 
 
@@ -11,17 +12,17 @@ const len = SliderData.length -1
 function ImageSlider(slides) {
 
     const [current, setCurrent] = useState(0)
-    const length = slides.length
+    
    
 
     // Funcionalidade do Slider
 
     function prevSlide() {
-        setCurrent(current === 0 ? length - 1 : current - 1)
+        setCurrent(current < 1 ? len : current - 1)
     }
 
     function nextSlide() {
-        setCurrent(current === length - 1 ? 0 : current + 1)
+        setCurrent(current === len ? 0 : current + 1)
     }
     console.log(current);
 
