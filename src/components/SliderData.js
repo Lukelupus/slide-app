@@ -1,5 +1,6 @@
-import First from "../assets/First.png"
-import Second from "../assets/Second.png"
+import First from "../assets/First.jpg"
+import Second from "../assets/Second.jpg"
+import Third from "../assets/Third.jpg"
 
 
 export const SliderData = [
@@ -16,7 +17,7 @@ export const SliderData = [
     {
         title: "Third Slide",
         description: "This is the Third Slide",
-        urls: Second
+        urls: Third
 
-    }
+    },
 ]
