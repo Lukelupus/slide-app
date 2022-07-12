@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import SliderData from "../components/SliderData"
+import { SliderData } from "./SliderData.js"
 import SliderContent from "./SliderContent.jsx"
 import Arrows from "./Arrows.jsx"
 import Dots from "./Dots.jsx"
@@ -58,9 +58,7 @@ function ImageSlider(slides) {
             />
         </div>
 
-            </>
-
-            )
+            </>)
 }
 
 export default ImageSlider
